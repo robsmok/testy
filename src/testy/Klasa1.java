@@ -10,16 +10,19 @@ package testy;
  *
  * @author rob
  */
-public class Klasa1 {
+public class Klasa1 implements Interface1 {
     
     String napis1 = "napis11";
 
-
-    void String1(Klasa2 k) {
+    @Override
+    public void String(Object o) {
         System.out.println(napis1);
-        System.out.println(k.napis2);
+        System.out.println(o.napis2);
         
     }
+
+
+    
     
     
     
