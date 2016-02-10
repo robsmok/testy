@@ -9,8 +9,17 @@ package testy;
  *
  * @author rob
  */
-public interface Interface {
+public class Klasa2 {
+  
+    String napis2 = "napis22";
     
 
+   
+    public String toString2() {
+        return "Klasa2{" + "napis2=" + napis2 + '}';
+    }
+    
+
+    
     
 }

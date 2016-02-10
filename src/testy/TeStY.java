@@ -18,10 +18,15 @@ public class TeStY {
         // TODO code application logic here
         
         Klasa2 kl2= new Klasa2();
-        System.out.println(kl2.toString());
+        
         
         Klasa1 kl1= new Klasa1();
-        System.out.println(kl1.toString());
+        kl1.String1(kl2);
+        
+
+        
+        
+
         
     }
     
