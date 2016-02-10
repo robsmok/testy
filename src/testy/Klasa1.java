@@ -10,7 +10,7 @@ package testy;
  *
  * @author rob
  */
-public class Klasa1 {
+public class Klasa1   {
     
     String napis1 = "napis11";
 
@@ -20,6 +20,13 @@ public class Klasa1 {
         System.out.println(k.napis2);
         
     }
+
+    
+
+    
+
+
+   
     
     
     
